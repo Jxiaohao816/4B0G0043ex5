@@ -1,0 +1,26 @@
+﻿<Window x:Class="_20221029.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_20221029"
+        mc:Ignorable="d"
+        Title="4B0G0043" Height="499" Width="852">
+    <Grid Background="White" HorizontalAlignment="Center" Width="852" Margin="0,0,0,-5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <GroupBox HorizontalAlignment="Left" Height="83" Header="內用/外帶" Margin="45,22,0,0" VerticalAlignment="Top" Width="381" Background="#FFE4D0EF">
+            <StackPanel>
+                <RadioButton x:Name="rb1" Content="內用" Margin="8,8,8,8" IsChecked="True" Checked="Radio_checked"/>
+                <RadioButton x:Name="rb2" Content="外帶" Margin="8,8,8,8" Checked="Radio_checked"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Left" Height="333" Header="飲料品項" Margin="45,110,0,0" VerticalAlignment="Top" Width="381" Foreground="Black" BorderBrush="#FF7FC3EC" Background="#7F8FCBEF">
+            <StackPanel x:Name="StackPanel_DrinkMenu" Margin="0,0,42,0"/>
+        </GroupBox>
+        <Button Content="送出訂單" HorizontalAlignment="Left" Height="73" Margin="461,32,0,0" VerticalAlignment="Top" Width="195" FontSize="22" Click="OrderBotton_Click"/>
+        <TextBlock x:Name="DPT" HorizontalAlignment="Left" Height="323" Margin="461,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FFEFEEC0"/>
+
+    </Grid>
+</Window>

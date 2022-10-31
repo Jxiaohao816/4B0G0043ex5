@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SzllHcOKELEM0bSv94JYqNQd1vrCHLPNljsJGeyyaslP7OPO1XrlbXwv0mi+ly3V2wBgX5sUnbeYBrUWIdkMvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hank9\\source\\repos\\20221029\\20221029\\20221029.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hank9\\.nuget\\packages\\csvhelper\\29.0.0\\csvhelper.29.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
